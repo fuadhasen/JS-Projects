@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "My Website",
+      "body": "lorem ipsum ...",
+      "author": "Fula16",
+      "id": "1"
+    },
+    {
+      "title": "Open Ceremony",
+      "body": "lorem ipsum ...",
+      "author": "Mario",
+      "id": "2"
+    },
+    {
+      "title": "Hello Ninja",
+      "body": "lorem ipsum",
+      "author": "ked mern",
+      "id": "75GbLxv"
+    }
+  ]
+}
