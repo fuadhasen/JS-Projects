@@ -22,12 +22,11 @@ const App = () => {
                 <Routes> 
                     {/* make nested routing */}
                     <Route path="/" element={<div className="welcome"><h1 className="welcome-heading">React Notes App!</h1>
-                                                    <img src={image} alt="" /></div>}/>
+                           
+			    <Link to="/home"> Go To Notes</Link>
+                       
+			    <img src={image} alt="" /></div>}/>
                     <Route  path="/home/*" element={<Home />}/>
-                    {/* <Route path="/create" element={<Create />}></Route> 
-                    
-                    <Route path="/note/:id" element={<Detail />}></Route>  */}
-                    {/* /* <Route path="*" element={<Error />} />                  */}
                 </Routes>
             </div>
         </div>
