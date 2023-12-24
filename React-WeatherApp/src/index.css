@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* home page style */
+.home{
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+.sidecloud{
+    cursor: pointer;
+    background: url('./bdcm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 2rem;
+    left: 24rem;
+    height: 31rem;
+    width: 25.8rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 6px rgb(121, 136, 185);
+}
+.sunny{
+    background: url('./sunny.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cloudy{
+    background: url('./cloudy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+ #sun{
+    position: absolute;
+    top: 4.5rem;
+    left: 6.9rem;
+    width: 10rem;
+    height: 11rem;
+}
+.sidecloud .temprature{
+    position: absolute;
+    top: 14rem;
+    left: 3.8rem;
+    width: 15rem;
+    height: 7rem;
+    text-align: center;  
+}
+.temprature p{
+    color: rgb(207, 203, 203);  
+    font-size: 5rem;
+    font-weight: bold;
+}
+.locimg {
+    color: white;
+    position: absolute;
+    top: 20rem;
+    left: 4.9rem;
+}
+.locimg img{
+    height: 2rem;
+    width: 2rem;
+}
+.sidecloud h3{
+    color: rgb(223, 223, 228);
+    position: absolute;
+    top: 19.9rem;
+    left: 7rem;
+    font-size: 1.5rem;
+}
+.sidecloud .two{
+    display: flex;
+    position: absolute;
+    top: 24rem;
+    left: .6rem;
+    gap: 1rem;
+    width: 24rem;
+    height: 5rem;
+    padding: .5rem;
+}
+.sidecloud .firstdiv{
+    width: 10rem;
+    height: 5rem;
+    margin-left: 1rem;
+    margin-top: -0.6rem;
+}
+
+
+.sidecloud .seconddiv{
+    margin-left: 1.4rem;
+    width: 14rem;
+    height: 5rem;
+    margin-top: -0.6rem;  
+}
+.seconddiv   p{
+    color: white;
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-left: 2.8rem;
+    margin-top: .5rem;
+
+}
+.seconddiv img{
+    position: absolute;
+    top: .7rem;
+    left: 11.8rem;
+    background: transparent;
+    border: none;
+    outline: none;  
+    width: 2.8rem;
+    height: 2rem;
+}
+.seconddiv p span {
+    position: absolute;
+    top: 2.7rem;
+    left: 12.4rem;
+    font-size: 1.2rem;
+    color: rgb(107, 105, 105);
+}
+.firstdiv img{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;   
+    width: 4rem;
+    height: 3rem;
+}
+.firstdiv p{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-top: .5rem;
+}
+.firstdiv p span{
+    position: absolute;
+    top: 3.1rem;
+    left: 4.5rem;
+    font-size: 1.2rem;
+    color: rgb(107, 105, 105);
+    
+}
+.inputs input{
+    position: absolute;
+    width: 13rem;
+    top: 2rem;
+    left: 2rem;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(67, 65, 65);
+    border-radius: 2.4rem;
+    padding: .8rem;
+}
+.inputs input::placeholder{
+    text-align: center;
+}
+.inputs button{
+    position: absolute;
+    top: 2rem;
+    left: 18rem;
+    padding: 1rem;
+    width: 2.9rem;
+    height: 2.9rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button img{
+    background: white;
+    position: absolute;
+    top: 7px;
+    left: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3rem;
+}
+@media (max-width: 797.33px) {
+    .sidecloud{
+        cursor: pointer;
+        background: url('./bdcm.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 2rem;
+        left: 12rem;
+    }
+
+
+}
+@media (max-width: 656px) {
+    .sidecloud{
+        cursor: pointer;
+        background: url('./bdcm.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 2rem;
+        left: 6rem;
+    }
+
+
+}
+
+
+
+
+
